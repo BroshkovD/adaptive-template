@@ -1,4 +1,4 @@
-#Adaptive Template pink
+#Adaptive Template Pink
 
 Project template with fuly adaptive design and retina ready graphics. Designed by Block Element Modifier (BEM) methodology.
 
@@ -30,4 +30,4 @@ Project template with fuly adaptive design and retina ready graphics. Designed b
 * grunt
 
 ##3. Demo
-[Demo scientific template](https://broshkovd.github.io/scientific-template/)
+[Demo scientific template](https://broshkovd.github.io/adaptive-template/)
