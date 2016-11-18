@@ -1,0 +1,68 @@
+.proof {
+  display: none;
+
+  @media @tablet {
+    display: block;
+    min-height: 360px;
+    padding: 95px 40px 55px 50%;
+    background: url("../img/research-bgr.svg") 10% 55px no-repeat;
+    background-size: 260px auto;
+  }
+
+  @media @desktop {
+    min-height: 470px;
+    padding: 150px 0 0 40%;
+    background-color: @gray-light;
+    background-position: 14% 45%;
+    background-size: 305px auto;
+  }
+
+  @media @desktop-full {
+    min-height: 480px;
+    padding-top: 160px;
+    background-position: 22% 50%;
+  }
+}
+
+.proof__header {
+  padding: 0 15px 10px 0;
+  font-size: 30px;
+  line-height: 35px;
+  font-weight: bold;
+
+  @media @desktop {
+    padding-bottom: 20px;
+  }
+}
+
+.proof__description {
+  margin-bottom: 10px;
+  line-height: 25px;
+  font-size: @font-size-base;
+
+  @media @desktop {
+    margin-bottom: 30px;
+    font-size: @font-size-small_desktop;
+    line-height: 30px;
+  }
+}
+
+.proof__link {
+  display: block;
+  line-height: 24px;
+  font-size: @font-size-base;
+  text-decoration: underline;
+  color: @red;
+
+  &:hover {
+    color: @blue-dark;
+  }
+  &:active {
+    color: @gray-dark;
+  }
+
+  @media @desktop {
+    font-size: @font-size-small_desktop;
+    line-height: 30px;
+  }
+}

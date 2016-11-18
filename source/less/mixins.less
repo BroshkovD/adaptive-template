@@ -1,0 +1,19 @@
+
+.sloped() {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  border-right: 100vw solid @gray-light;
+  border-top: 8vw solid transparent;
+  z-index: -1;
+}
+
+.retinify(@img) {
+  @name: e(`/(.*)\.(jpg|jpeg|png|gif)/.exec(@{img})[1]`);
+  @ext : e(`/(.*)\.(jpg|jpeg|png|gif)/.exec(@{img})[2]`);
+  background-image: url(@img);
+  @media @retina-2x {
+    background-image: e("url(@{name}@2x.@{ext})");
+  }
+}

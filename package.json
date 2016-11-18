@@ -1,0 +1,29 @@
+{
+  "name": "adaptive-template",
+  "version": "0.1.0",
+  "description": "Project template with adaptive design",
+  "author": "Broshkov Dmitry",
+  "main": "Gruntfile.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com:BroshkovD/adaptive-template.git"
+  },
+  "devDependencies": {
+	"grunt": "^1.0.0",
+    "autoprefixer": "^6.5.3",
+    "autoprefixer-core": "^5.1.7",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^1.0.2",
+    "grunt-contrib-less": "^1.4.0",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-lintspaces": "^0.8.0",
+    "grunt-postcss": "^0.8.0"
+  },
+  "dependencies": {
+    "normalize.css": "^5.0.0",
+    "tap.js": "git://github.com/pukhalski/tap#1.0.4",
+    "hammerjs": "git://github.com/hammerjs/hammer.js#2.0.4"
+  }
+}
