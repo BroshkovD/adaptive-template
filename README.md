@@ -25,7 +25,7 @@ Project template with fuly adaptive design and retina ready graphics. Designed b
 
 ### Process
 
-* git clone https://github.com/BroshkovD/adaptive-template new-project && cd new-project
+* git clone https://github.com/BroshkovD/adaptive-template.git new-project && cd new-project
 * npm i
 * grunt
 
